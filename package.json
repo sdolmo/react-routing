@@ -1,25 +1,28 @@
 {
-  "name": "react-seed",
+  "name": "react-routing",
   "version": "1.0.0",
-  "description": "skeleton for react projects",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "watchify src/main.jsx -v -t [babelify --presets [ react ] ] -o public/js/main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-  },
-  "author": "sylvia",
-  "license": "ISC",
-  "bugs": {
-  },
-  "homepage": ,
   "dependencies": {
     "babel-preset-react": "^6.16.0",
     "babelify": "^7.3.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "react-router": "^3.0.0",
     "watchify": "^3.7.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdolmo/react-routing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdolmo/react-routing/issues"
+  },
+  "homepage": "https://github.com/sdolmo/react-routing#readme"
 }
